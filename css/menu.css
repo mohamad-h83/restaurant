@@ -1,0 +1,119 @@
+.title h4 {
+  width: max-content;
+  color: var(--color_C90000);
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 3rem;
+  position: relative;
+}
+.border_title {
+  width: 100%;
+  height: 9px;
+  background-color: var(--color_FFF6A3);
+  position: absolute;
+  top: 35px;
+  z-index: -1;
+}
+.category-main {
+  margin-top: 32px;
+  display: grid;
+  grid-auto-columns: 168px;
+  grid-auto-flow: column;
+  column-gap: 20px;
+  overflow-x: auto;
+}
+.category-main button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--color_E3E3E3);
+  background-color: var(--color_F1F1F1);
+  color: var(--color_504F4F);
+  border-radius: 100px;
+  padding: 11px 20px;
+  column-gap: 8px;
+}
+.button-active {
+  background-color: var(--color_FFC300) !important;
+  color: var(--color_323232) !important;
+  font-weight: 600 !important;
+}
+.food-product {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  /* grid-template-columns: repeat(auto-fit,minmax(300px,1fr)); */
+  gap: 2rem;
+  justify-content: center;
+}
+.item-grid {
+  border: 1px solid var(--color_E3E3E3);
+  border-radius: 12px;
+  padding: 10px;
+}
+.img-item-grid {
+  position: relative;
+  text-align: center;
+  position: relative;
+}
+.img-item-grid img:last-child {
+  max-width: 227px;
+  max-height: 170px;
+  margin-bottom: 10px;
+}
+.svg-food {
+  position: absolute;
+  left: 0px;
+}
+.bordeer-img {
+  position: absolute;
+  height: 105px;
+  background-color: var(--color_FFFDE6);
+  border-radius: 12px;
+  width: 100%;
+  bottom: 5px;
+  z-index: -1;
+}
+.info-item-grid h5 {
+  font-size: 20px;
+  color: var(--color_323232);
+  font-weight: 600;
+}
+.info-item-grid p {
+  font-size: 14px;
+  color: var(--color_504F4F);
+  font-weight: 400;
+  margin-top: 5px;
+}
+.score-item-grid {
+  margin: 12px 0 20px 0;
+}
+.button-item-grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.button-item-grid span {
+  color: var(--color_323232);
+  font-size: 24px;
+  font-weight: 600;
+}
+.button-item-grid button {
+  background-color: #c90000;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  padding: 6px;
+}
+.see-all {
+  color: var(--color_504F4F);
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 3rem;
+}
+.see-all a {
+  color: var(--color_504F4F);
+}
